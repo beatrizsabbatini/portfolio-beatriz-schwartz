@@ -1,0 +1,67 @@
+#portfolio {
+
+    width: 100%;
+    height: auto;
+    background: #0f0c29;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #0f0f11, #303030, #0f0f11);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #0f0f11, #303030, #0f0f11);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+
+
+}
+
+.geovanna {
+
+    border: 2px solid white;
+    height: 300px;
+    ;
+}
+
+.zumbi {
+
+    border: 2px solid white;
+    height: 300px;
+}
+
+.cientista {
+
+    border: 2px solid rgb(54, 54, 53);
+    height: 300px;
+    ;
+}
+
+@media only screen and (max-width : 1419px) {
+
+
+    .geovanna {
+
+
+        height: 200px;
+        ;
+    }
+
+    .zumbi {
+
+
+        height: 200px;
+    }
+
+    .cientista {
+
+
+        height: 200px;
+        ;
+    }
+
+    #portfolio {
+
+
+        height: auto;
+
+    }
+
+}

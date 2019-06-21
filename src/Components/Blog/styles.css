@@ -1,0 +1,110 @@
+#blog {
+
+    width: 100%;
+    height: 150vh;
+    background: black;
+
+}
+
+.cheer {
+    -webkit-transition: all 500ms ease;
+    -moz-transition: all 500ms ease;
+    -ms-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;
+    border-radius: 5%;
+    height: 400px;
+    width: 320px;
+    border: 2px;
+    filter: grayscale(100%);
+
+}
+
+
+.gamejam {
+    -webkit-transition: all 500ms ease;
+    -moz-transition: all 500ms ease;
+    -ms-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;
+    border-radius: 5%;
+    height: 400px;
+    width: 550px;
+    border: 2px;
+    filter: grayscale(100%);
+
+}
+
+
+.lisboa {
+    -webkit-transition: all 500ms ease;
+    -moz-transition: all 500ms ease;
+    -ms-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;
+    border-radius: 5%;
+    border: 2px solid;
+    height: 400px;
+    width: 310px;
+    filter: grayscale(100%);
+
+}
+
+img:hover {
+
+    filter: none;
+
+
+}
+
+
+@media only screen and (max-width : 1180px) {
+
+
+    .cheer {
+
+
+        height: 200px;
+        width: 160px;
+        filter: grayscale(0);
+
+
+    }
+
+
+    .gamejam {
+
+
+        height: 200px;
+        width: 330px;
+        filter: grayscale(0);
+
+
+    }
+
+
+    .lisboa {
+
+
+        height: 200px;
+        width: 150px;
+        filter: grayscale(0);
+
+
+    }
+
+    #blog {
+
+        height: auto;
+    }
+
+}
+
+@media only screen and (max-width : 800px) {
+
+    #blog {
+
+        height: auto;
+    }
+
+}

@@ -1,0 +1,54 @@
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: black;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+
+    background-color: rgba(255, 255, 255, 0.89);
+
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(189, 189, 189);
+}
+
+
+
+@media only screen and (max-width : 1180px) {
+
+    /* width */
+    ::-webkit-scrollbar {
+        width: 10px;
+        display: none;
+    }
+
+    /* Track */
+    ::-webkit-scrollbar-track {
+        background: black;
+        display: none;
+    }
+
+    /* Handle */
+    ::-webkit-scrollbar-thumb {
+
+        background-color: rgba(255, 255, 255, 0.89);
+        display: none;
+
+    }
+
+    /* Handle on hover */
+    ::-webkit-scrollbar-thumb:hover {
+        background: rgb(189, 189, 189);
+        display: none;
+    }
+
+
+}

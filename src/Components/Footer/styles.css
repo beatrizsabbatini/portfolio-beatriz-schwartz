@@ -1,0 +1,50 @@
+#rodape {
+
+    background: #ECE9E6;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FFFFFF, #ECE9E6);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FFFFFF, #ECE9E6);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+
+    width: 100%;
+    height: auto;
+}
+
+.git,
+
+.instagram {
+
+    height: 30px;
+    width: 30px;
+
+}
+
+.facebook {
+    height: 25px;
+    width: 25px;
+    margin-top: 3px;
+    margin-left: 5px;
+}
+
+@media only screen and (max-width : 1180px) {
+
+    .git,
+
+    .instagram {
+
+        height: 50px;
+        width: 50px;
+
+    }
+
+    .facebook {
+        height: 42px;
+        width: 42px;
+        margin-top: 3px;
+        margin-left: 5px;
+    }
+
+}

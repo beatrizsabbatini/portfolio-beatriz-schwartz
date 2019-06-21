@@ -1,0 +1,119 @@
+#perfil {
+
+    width: 100%;
+    height: auto;
+    background-color: black;
+    background-image: linear-gradient(to bottom, rgba(27, 26, 26, 0.541), rgb(41, 41, 41));
+}
+
+.icone_coracao {
+
+    width: 60px;
+    padding-bottom: 10%;
+}
+
+.icone_balao {
+
+    width: 60px;
+    padding-bottom: 10%;
+}
+
+.icone_diploma {
+
+    width: 60px;
+    padding-bottom: 10%;
+}
+
+.icone_lapis {
+
+    width: 60px;
+    padding-bottom: 10%;
+}
+
+.baixar {
+
+    font-family: 'Work Sans';
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: 300px;
+    display: inline-block;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    border-radius: 50%;
+    height: 9%;
+    padding: 0.6%;
+    margin-bottom: 7%;
+    width: 400px;
+    border-radius: 40px;
+    background-color: rgba(255, 255, 255, 0.397);
+    -webkit-transition: background-color 500ms linear;
+    -ms-transition: background-color 500ms linear;
+    transition: background-color 500ms linear;
+
+
+
+}
+
+.baixar:hover {
+
+    background: rgba(8, 160, 102, 0.87);
+    color: white;
+
+}
+
+@media only screen and (max-width : 1180px) {
+
+
+    .icone_coracao {
+
+        width: 50px;
+        padding-bottom: 10%;
+        padding-top: 15%;
+    }
+
+    .icone_balao {
+
+        width: 50px;
+        padding-bottom: 10%;
+        padding-top: 15%;
+    }
+
+    .icone_diploma {
+
+        width: 50px;
+        padding-bottom: 10%;
+        padding-top: 15%;
+    }
+
+    .icone_lapis {
+
+        width: 50px;
+        padding-bottom: 10%;
+        padding-top: 15%;
+    }
+
+
+    .baixar {
+
+        width: 305px;
+        font-size: 20px;
+
+    }
+
+    #perfil {
+
+        height: auto;
+        background: #000000;
+        /* fallback for old browsers */
+        background: -webkit-linear-gradient(to bottom, #434343, #000000);
+        /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to bottom, #434343, #000000);
+        /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    }
+
+}

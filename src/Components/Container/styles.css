@@ -1,0 +1,250 @@
+.container_home {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 500px;
+    padding-top: 16%;
+    padding-left: 1%;
+}
+
+.container_about {
+
+    display: flex;
+    justify-content: space-around;
+    padding-top: 6%;
+    padding-bottom: 23%;
+    width: 100%;
+    height: 57vh;
+
+}
+
+.container_habilidades {
+
+    display: flex;
+    flex-direction: column;
+    padding-top: 4%;
+}
+
+.container_habilidades2 {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.botao {
+
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    padding-top: 4%;
+}
+
+.container1_blog {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 97%;
+    padding-left: 4%;
+    height: auto;
+}
+
+.container_portfolio {
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 9.5%;
+    width: 90%;
+    height: auto;
+}
+
+.container_portfolio2 {
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 9.5%;
+    width: 90%;
+    height: auto;
+}
+
+.container_titulo_portfolio {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container_infos {
+
+    width: 90%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-left: 10%;
+
+}
+
+.github {
+
+    padding-top: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: auto;
+}
+
+.form {
+
+    display: flex;
+    width: 100%;
+    height: auto;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.form2 {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+
+.social {
+
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.rodape {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+@media only screen and (max-width : 1180px) {
+
+    .container_home {
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: auto;
+        padding-top: 70px;
+
+    }
+
+    .container_about {
+
+
+        flex-wrap: wrap;
+        padding-top: 6%;
+        padding-bottom: 10px;
+        width: 100%;
+        height: auto;
+
+    }
+
+    .container_habilidades {
+
+        display: flex;
+        flex-direction: column;
+        padding-top: 5px;
+    }
+
+    .container1_blog {
+
+
+        flex-wrap: wrap;
+        padding: 25px;
+        width: 100%;
+    }
+
+    .container_titulo_portfolio {
+
+        width: 100px;
+        display: flex;
+        padding-left: 50%;
+    }
+
+
+
+
+    .container_infos {
+
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 5px;
+
+    }
+
+    .container_portfolio2 {
+
+        padding-left: 1px;
+        width: 98%;
+        padding-left: 15px;
+        padding-right: 2px;
+
+
+    }
+
+
+
+
+}
+
+@media only screen and (max-width :800px) {
+
+    .container1_blog {
+
+        flex-direction: column;
+        flex-wrap: wrap;
+        padding: 25px;
+    }
+
+    .rodape {
+
+        text-align: center;
+    }
+
+
+}
+
+
+@media only screen and (max-width :1152px) {
+
+    .container_portfolio {
+
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        padding-left: 1px;
+
+
+
+    }
+}

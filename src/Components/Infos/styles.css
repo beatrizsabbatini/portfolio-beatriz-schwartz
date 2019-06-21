@@ -1,0 +1,105 @@
+#infos {
+
+    width: 100%;
+    height: auto;
+    background-position-x: 100px;
+    background: #0f0c29;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #bababb, #ffffff, #bababb);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #bababb, #ffffff, #bababb);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.icone_pessoa {
+
+    width: 30px;
+    height: 30px;
+}
+
+.icone_profissao {
+
+    width: 30px;
+    height: 30px;
+}
+
+.icone_github {
+
+    margin-bottom: 1%;
+    height: 100px;
+    width: 100px;
+}
+
+.botao_github {
+
+
+
+
+    font-family: 'Work Sans';
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 300px;
+    display: inline-block;
+    color: rgba(255, 255, 255, 0.918);
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    border-radius: 50%;
+    height: 9%;
+    padding: 0.6%;
+    margin-bottom: 5%;
+    width: 170px;
+    border-radius: 40px;
+    background-color: rgba(0, 0, 0, 0.89);
+    -webkit-transition: background-color 500ms linear;
+    -ms-transition: background-color 500ms linear;
+    transition: background-color 500ms linear;
+
+
+}
+
+.botao_github:hover {
+
+    background: rgba(8, 160, 102, 0.87);
+    color: white;
+
+}
+
+@media only screen and (max-width :800px) {
+
+
+    .icone_pessoa {
+
+        padding: 40px;
+        width: 20px;
+        height: 20px;
+    }
+
+    .icone_profissao {
+
+        padding: 40px;
+        width: 20px;
+        height: 20px;
+    }
+
+    .icone_github {
+
+        margin-top: 50px;
+        margin-bottom: 1%;
+        height: 60px;
+        width: 60px;
+    }
+
+    #infos {
+        height: auto;
+
+    }
+
+    .botao_github {
+
+        margin-bottom: 10%;
+    }
+}

@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Karla&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Cookie|Poiret+One&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:200&display=swap');
+
+#home {
+
+    margin-top: 50px;
+    width: 100%;
+    height: 125vh;
+    background-position-x: 100px;
+    background: transparent;
+    background-image: linear-gradient(to bottom, rgba(51, 50, 50, 0.233), rgba(2, 2, 20, 0.822)), url("../Images/lisboa2.jpg");
+    background-size: cover;
+}
+
+.foto_beatriz {
+
+    height: 280px;
+    width: 280px;
+    border-radius: 50%;
+    display: none;
+}
+
+@media only screen and (max-width : 1180px) {
+
+    #home {
+
+        margin-top: 54.5px;
+        width: 100%;
+        height: 93vh;
+        background-position-x: 100px;
+        background: black;
+        background-image: none;
+        background-size: cover;
+    }
+
+    .foto_beatriz {
+
+        display: block;
+    }
+
+
+}

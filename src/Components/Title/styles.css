@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css?family=Francois+One&display=swap');
+
+.titulo_about {
+
+    text-align: center;
+    font-family: 'Poiret One', cursive;
+    font-size: 50px;
+    color: rgba(248, 240, 240, 0.897);
+    padding-top: 6%;
+
+
+}
+
+.subtitulos_about {
+
+    font-family: 'Poiret One', cursive;
+    font-weight: 100;
+    color: rgb(248, 240, 240);
+    font-size: 40px;
+    text-decoration: none;
+    border-bottom: 0;
+}
+
+.titulo_habilidades {
+
+    text-align: center;
+    font-family: 'Poiret One', cursive;
+    font-size: 48px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    padding-top: 6%;
+
+
+}
+
+.subtitulo_habilidades {
+
+    text-align: center;
+    font-family: 'Poiret One', cursive;
+    font-size: 40px;
+    color: rgb(0, 0, 0);
+    font-weight: 100;
+    padding-top: 5%;
+
+
+}
+
+.titulo_blog {
+
+    text-align: center;
+    font-family: 'Poiret One', cursive;
+    font-size: 60px;
+    font-weight: 100;
+    color: rgba(248, 240, 240, 0.897);
+    padding-top: 6%;
+    padding-bottom: 6%;
+
+
+}
+
+.borda {
+
+    border-bottom: 2px solid rgb(250, 243, 243);
+}
+
+.borda2 {
+    border-bottom: 2px solid rgb(0, 0, 0);
+}
+
+
+
+
+.titulo2_blog {
+
+    text-align: center;
+    font-family: 'Poiret One', cursive;
+    font-size: 45px;
+    font-weight: 100;
+    color: rgba(248, 240, 240, 0.897);
+    padding-top: 6%;
+
+
+}
+
+.meu_portfolio {
+
+    width: 600px;
+    text-align: center;
+    padding-top: 5%;
+    height: auto;
+    text-align: center;
+    font-family: 'Poiret One', cursive;
+    font-size: 65px;
+    color: rgb(248, 240, 240);
+    font-weight: 100;
+}
+
+.titulo_programacao {
+
+
+    text-align: center;
+    padding: 3%;
+    font-family: 'Satisfy', cursive;
+    font-size: 45px;
+    color: rgb(248, 240, 240);
+    font-weight: 100;
+
+}
+
+.titulo_infos {
+
+    text-align: center;
+    padding: 5%;
+    font-family: 'Poiret One', cursive;
+    font-size: 45px;
+    color: rgb(0, 0, 0);
+    font-weight: 100;
+}
+
+
+.subtitulo_infos {
+
+    text-align: center;
+    padding: 5%;
+    font-family: 'Poiret One', cursive;
+    font-size: 45px;
+    color: rgb(0, 0, 0);
+    font-weight: 100;
+}
+
+.titulo_contato {
+
+    text-align: center;
+    padding: 5%;
+    font-family: 'Poiret One', cursive;
+    font-size: 50px;
+    color: rgb(253, 253, 253);
+    font-weight: 200;
+}
+
+
+@media only screen and (max-width : 1180px) {
+
+
+    .titulo_about {
+
+        font-size: 35px;
+
+    }
+
+    .subtitulos_about {
+
+
+        font-size: 28px;
+
+    }
+
+    .titulo_habilidades {
+
+
+        font-size: 35px;
+        padding: 20px;
+        padding-top: 50px;
+
+
+    }
+
+
+    .subtitulo_habilidades2 {
+
+        font-size: 28px;
+        padding: 10px;
+    }
+
+    .titulo_blog {
+
+
+        font-size: 35px;
+    }
+
+    .titulo2_blog {
+
+        font-size: 28px;
+
+    }
+
+    .meu_portfolio {
+
+        padding-top: 40px;
+        font-size: 35px;
+
+    }
+
+    .titulo_programacao {
+
+        text-align: center;
+        padding: 50px;
+        font-size: 32px;
+
+
+    }
+
+    .titulo_contato {
+
+        padding-top: 60px;
+        font-size: 35px;
+
+    }
+
+    .titulo_infos {
+
+        font-size: 35px;
+
+    }
+
+
+    .subtitulo_infos {
+
+
+        font-size: 28px;
+
+    }
+
+
+}

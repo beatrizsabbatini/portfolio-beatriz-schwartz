@@ -1,0 +1,32 @@
+#habilidades {
+
+    width: 100%;
+    height: 108vh;
+    background: transparent;
+    background-image: linear-gradient(to bottom, rgb(255, 255, 255), rgba(230, 227, 227, 0.534)), url("../Images/mesa.jpg");
+    background-size: cover;
+}
+
+
+.icone_notebook {
+
+    padding-top: 6%;
+}
+
+@media only screen and (max-width : 1180px) {
+
+    #habilidades {
+
+        height: 80vh;
+
+    }
+
+
+    .icone_notebook {
+
+
+        width: 40px;
+        padding-bottom: 10px;
+    }
+
+}

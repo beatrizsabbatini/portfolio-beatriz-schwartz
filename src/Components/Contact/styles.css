@@ -1,0 +1,62 @@
+#contato {
+
+    width: 100%;
+    height: 110vh;
+    background: #093028;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #237A57, #093028);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #237A57, #093028);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+._replyto {
+
+    width: 400px;
+    height: 100px;
+    margin-bottom: 5%;
+}
+
+.name {
+
+
+    width: 400px;
+    height: auto;
+    margin-bottom: 2%;
+
+}
+
+.email {
+
+
+    width: 400px;
+    height: auto;
+    margin-bottom: 2%;
+
+}
+
+.assunto {
+
+    width: 400px;
+    height: auto;
+    margin-bottom: 2%;
+}
+
+.enviar {
+
+    width: 100px;
+    height: auto;
+    padding: 1%;
+    margin-left: 80%;
+}
+
+@media only screen and (max-width :800px) {
+
+    #contato {
+
+        height: 90vh;
+
+
+    }
+}

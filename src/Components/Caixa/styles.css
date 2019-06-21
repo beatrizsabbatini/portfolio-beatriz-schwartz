@@ -1,0 +1,58 @@
+.caixa1 {
+
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 200px;
+    align-items: center;
+
+}
+
+
+.caixa_blog {
+
+    display: flex;
+    flex: 1;
+    margin: 10px;
+    flex-direction: column;
+    height: auto;
+    align-items: center;
+
+
+}
+
+.caixa_port {
+
+
+    width: 560px;
+    height: auto;
+}
+
+.caixa_infos {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 500px;
+    height: auto;
+}
+
+
+@media only screen and (max-width : 1318px) {
+
+    .caixa_blog {
+
+        padding-bottom: 30px;
+
+
+    }
+
+
+    .caixa_port {
+
+        flex-wrap: wrap;
+        width: 400px;
+        height: auto;
+    }
+
+}
