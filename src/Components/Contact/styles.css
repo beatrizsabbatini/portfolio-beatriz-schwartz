@@ -51,12 +51,52 @@
     margin-left: 80%;
 }
 
-@media only screen and (max-width :800px) {
+@media only screen and (max-width :1080px) {
 
     #contato {
 
-        height: 90vh;
+        height: 87vh;
 
 
+    }
+
+    .name {
+
+
+        width: 230px;
+        height: auto;
+        margin-bottom: 2%;
+
+    }
+
+    .email {
+
+
+        width: 230px;
+        height: auto;
+        margin-bottom: 2%;
+
+    }
+
+    .assunto {
+
+        width: 230px;
+        height: auto;
+        margin-bottom: 2%;
+    }
+
+    .enviar {
+
+        width: 90px;
+        height: auto;
+        padding: 1%;
+        margin-left: 60%;
+    }
+
+    ._replyto {
+
+        width: 230px;
+        height: 60px;
+        margin-bottom: 5%;
     }
 }

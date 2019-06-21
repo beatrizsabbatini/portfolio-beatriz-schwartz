@@ -186,6 +186,7 @@
 
     .meu_portfolio {
 
+        width: 100px;
         padding-top: 40px;
         font-size: 35px;
 
@@ -194,7 +195,8 @@
     .titulo_programacao {
 
         text-align: center;
-        padding: 50px;
+        padding: 2%;
+        ;
         font-size: 32px;
 
 
